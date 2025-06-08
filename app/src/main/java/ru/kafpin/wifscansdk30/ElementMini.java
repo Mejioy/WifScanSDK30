@@ -1,5 +1,8 @@
 package ru.kafpin.wifscansdk30;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
+//@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 public class ElementMini {
     private String title;
     private String level;
